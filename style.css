@@ -1,12 +1,67 @@
-/* 
+/************************ 
 common
+*******************/
 
-*/
 body{
   font-family: "monospace",sans-serif;
 
 }
+
 .font-primary{
     color:#00abae
     
 }
+
+.title-icon{
+  font-size: large;
+  font-weight: bolder;
+
+}
+
+/******************
+About
+*********************/
+
+#about{
+  margin: 60px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+#about img{
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
+
+}
+#about .name{
+  font-size: 30px;
+  font-weight: bold;
+}
+#about .occupation{
+  font-size: 20px;
+  color:#a8abab;
+  margin-bottom: 10px;
+}
+#about .skills{
+  font-size: 15px;
+  color:#a8abab;
+  margin-bottom: 10px;
+}
+
+#about .email{
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#about .icons{
+  margin: 20px;
+  font-size: 30px;
+}
+#about .icons a{
+  color:black
+}
+
+/*************** 
+projects
+****************/
